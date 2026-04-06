@@ -8,7 +8,7 @@ It features a centralized dashboard, a Telegram command interface, and a stealth
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 *   **Real-Time Monitoring**: Track CPU, RAM, Disk usage, and Online status of all devices.
 *   **Live Surveillance**:
@@ -27,7 +27,7 @@ It features a centralized dashboard, a Telegram command interface, and a stealth
 
 ---
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 *   Python 3.9+ (for Server)
@@ -36,7 +36,7 @@ It features a centralized dashboard, a Telegram command interface, and a stealth
 ### 1. Server Setup (The command center)
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/Project_Gods_Eye.git
+    git clone https://github.com/Hackexdecodebreaker/Project_Gods_Eye.git
     cd Project_Gods_Eye
     ```
 2.  Install dependencies:
