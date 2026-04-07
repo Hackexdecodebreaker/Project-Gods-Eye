@@ -65,7 +65,7 @@ It features a centralized dashboard, a Telegram command interface, and a stealth
 
 ---
 
-## 🖥️ Usage
+##  Usage
 
 ### Dashboard
 Access `http://localhost:5000` (or your deployed URL).
