@@ -18,7 +18,6 @@ It features a centralized dashboard, a Telegram command interface, and a stealth
 *   **Remote Command Execution**: Execute shell commands on target devices directly from the dashboard or Telegram.
 *   **Telegram Integration**:
     *   Full control via Telegram Bot (@BotFather).
-    *   Sci-Fi themed interface ("Commander Xcyberex").
     *   Interactive buttons for quick actions.
 *   **Stealth Client**:
     *   Runs in the background.
