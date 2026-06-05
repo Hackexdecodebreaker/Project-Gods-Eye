@@ -1,0 +1,5 @@
+# Keep GitHub language stats focused on source code
+*.tex linguist-documentation
+README.md linguist-documentation
+server/templates/*.html linguist-documentation
+build/** linguist-generated
