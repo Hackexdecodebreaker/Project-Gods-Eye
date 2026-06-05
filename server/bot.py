@@ -6,8 +6,9 @@ from models import db, Device, Command
 from app import app
 import os
 
-# Replace with your actual bot token
-BOT_TOKEN = 'YOUR_BOT_TOKEN_HERE'
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+if not BOT_TOKEN:
+    raise RuntimeError("Missing required BOT_TOKEN environment variable.")
 AUTHORIZED_USER_ID = 6830221233
 
 def handle(msg):

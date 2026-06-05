@@ -43,8 +43,7 @@ It features a centralized dashboard, a Telegram command interface, and a stealth
     pip install -r requirements.txt
     ```
 3.  Configure Telegram Bot:
-    *   Open `server/bot.py`.
-    *   Set `BOT_TOKEN` to your bot token from Telegram's BotFather.
+    *   Set the `BOT_TOKEN` environment variable to your bot token from Telegram's BotFather.
     *   (Optional) Update `app.py` secret keys if deploying publicly.
 
 4.  Run the Server and Bot:
@@ -94,4 +93,4 @@ Do not use this software on devices you do not own or have explicit permission t
 
 ---
 
-**"WE SEE EVERYTHING."**
+**A unified cross-platform remote administration simulation.**
