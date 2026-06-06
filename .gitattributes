@@ -1,5 +1,10 @@
-# Keep GitHub language stats focused on source code
-*.tex linguist-documentation
-README.md linguist-documentation
-server/templates/*.html linguist-documentation
-build/** linguist-generated
+# Ignore frontend templates and styles from language statistics
+*.html linguist-documentation=false linguist-vendored=true
+*.css linguist-documentation=false linguist-vendored=true
+*.js linguist-documentation=false linguist-vendored=true
+
+# Ignore TeX documentation/write-ups from language statistics
+*.tex linguist-documentation=false linguist-vendored=true
+
+# Ignore batch scripts or environment helpers
+*.bat linguist-documentation=false linguist-vendored=true
