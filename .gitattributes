@@ -1,10 +1,8 @@
-# Ignore frontend templates and styles from language statistics
-*.html linguist-documentation=false linguist-vendored=true
-*.css linguist-documentation=false linguist-vendored=true
-*.js linguist-documentation=false linguist-vendored=true
+*.tex linguist-detectable=false
+*.sty linguist-detectable=false
+*.cls linguist-detectable=false
+*.bib linguist-detectable=false
 
-# Ignore TeX documentation/write-ups from language statistics
-*.tex linguist-documentation=false linguist-vendored=true
-
-# Ignore batch scripts or environment helpers
-*.bat linguist-documentation=false linguist-vendored=true
+docs/** linguist-documentation
+third_party/** linguist-vendored
+build/** linguist-generated
