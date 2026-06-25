@@ -9,7 +9,7 @@ import os
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 if not BOT_TOKEN:
     raise RuntimeError("Missing required BOT_TOKEN environment variable.")
-AUTHORIZED_USER_ID = 6830221233
+AUTHORIZED_USER_ID = #Admin user id
 
 def handle(msg):
     content_type, chat_type, chat_id = telepot.glance(msg)
@@ -57,7 +57,7 @@ def handle(msg):
                     for d in devices:
                         status = "ONLINE" if d.is_online else "OFFLINE"
                         emoji = "🟢" if d.is_online else "🔴"
-                        # Use telepot.namedtuple for InlineKeyboardMarkup
+                       
                         keyboard = InlineKeyboardMarkup(inline_keyboard=[
                             [InlineKeyboardButton(text='ℹ️ Info', callback_data=f'info_{d.id}'),
                              InlineKeyboardButton(text='📺 Stream', callback_data=f'stream_{d.id}')],
